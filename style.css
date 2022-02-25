@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: rgb(4, 28, 49);
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.talk {
+    padding: 20px;
+    background: linear-gradient(170deg, rgba(37, 138, 189, 1) 48%, rgba(44, 192, 178, 1) 84%);
+    border-radius: 8px;
+}
+
+.home {
+    color: aliceblue;
+}
+
+.home ul {
+    display: flex;
+    text-align: right;
+    list-style: none;
+}
+
+.home ul li {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.home ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.about {
+    border-bottom: 3px solid transparent;
+}
+
+.about:hover {
+    border-bottom: 3px solid #008A79;
+}
+
+
+/* -----------first section ----------- */
+
+.first {
+    background-image: url('imagess/Group-279.png');
+    height: 100vh !important;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    align-items: center;
+    /* color: linear-gradient(170deg, rgba(37, 138, 189, 1) 48%, rgba(44, 192, 178, 1) 84%); */
+    color: aliceblue;
+}
+
+.description div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.font-gradiant-color {
+    background: linear-gradient(170deg, rgba(37, 138, 189, 1) 48%, rgba(44, 192, 178, 1) 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description h1,
+.description h3,
+.description h4 {
+    margin: 0;
+}
+
+.description h1 {
+    font-size: 70px;
+}
+
+.description h3 {
+    font-size: 40px;
+}
+
+.now {
+    font-size: 31px;
+}
+
+.nowa {
+    font-size: 17px;
+}
+
+button {
+    padding: 20px 60px 20px 60px;
+    border-radius: 7px;
+    background: linear-gradient(170deg, rgba(37, 138, 189, 1) 48%, rgba(44, 192, 178, 1) 84%);
+    border-color: transparent;
+    color: white;
+    font-weight: 600;
+}
+
+button:hover {
+    background: linear-gradient(170deg, rgba(44, 192, 178, 1) 48%, rgba(37, 138, 189, 1) 84%);
+}
+
+
+/* -----------second---------- */
+
+.second {
+    background: #09303F;
+    display: flex;
+}
+
+.images {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.view h5 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 29px;
+    margin-bottom: 0px;
+}
+
+.view h1 {
+    font-size: 45px;
+}
+
+.img-des {
+    display: flex;
+    align-items: center;
+    /* border-radius: 12px; */
+}
+
+.des-continer {
+    background: #002029;
+    /* display: flex; */
+    border-radius: 10px;
+}
+
+.faka {
+    width: 45%;
+    border: 1px solid #2dc8b0;
+    border-radius: 10px;
+    margin: -34px;
+    padding: 51px;
+    box-shadow: -7px 7px 60px -13px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -7px 7px 60px -13px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 7px 60px -13px rgba(0, 0, 0, 0.75);
+}
+
+.faka p {
+    margin: 0;
+    color: aliceblue;
+}
+
+.man {
+    z-index: 1;
+}
+
+
+/* 3rd------section---- */
+
+.tour {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.tour h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.way {
+    padding: 30px;
+    background: #093140;
+    margin: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.group-color {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 130px 0px 130px;
+}
+
+.out {
+    background: linear-gradient(170deg, rgba(37, 138, 189, 1) 48%, rgba(44, 192, 178, 1) 84%);
+    border-color: transparent;
+}
+
+.out button {
+    background: #093140;
+    font-weight: 400;
+    margin: 27px;
+}
+
+.half {
+    background: #052D37;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.half img {
+    width: 42px;
+    margin-top: 30px;
+}
+
+.image-group {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 24px 0px 40px;
+    background: #052D37;
+}
+
+.image-group img {
+    /* width: 311px; */
+    height: 247px;
+    border-radius: 7px;
+}
